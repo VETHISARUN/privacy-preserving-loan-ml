@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} - Loan Approval System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Add this section to the top of your base.html -->
+<nav style="display: flex; justify-content: flex-end; padding: 10px;">
+    <span style="margin-right: 15px;">
+        Hello, {% if current_user and current_user.username %}{{ current_user.username }}{% else %}Guest{% endif %}
+    </span>
+    
+    <a href="{{ url_for('logout') }}" style="text-decoration: none; color: red;">Logout</a>
+  </nav>
+  <hr>
+  
+</head>
+<body>
+    <nav>
+        <h1>Loan Approval System</h1>
+        {% if session.get('username') %}
+                <span class="welcome-msg">Welcome, {{ session.username }}</span>
+            {% endif %}
+        {% if session.get('user_id') %}
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('predict') }}">New Prediction</a>
+            <a href="{{ url_for('history') }}">History</a>
+            <div class="user-info">
+                
+                <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+            </div>
+        </div>
+        {% endif %}
+    </nav>
+
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

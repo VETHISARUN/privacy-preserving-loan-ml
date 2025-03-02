@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="welcome-section">
+    <h2>Welcome to Your Loan Dashboard</h2>
+    <p>Use our advanced loan approval predictor to check loan eligibility instantly.</p>
+    
+    <div class="dashboard-cards">
+        <div class="card">
+            <h3>Make New Prediction</h3>
+            <p>Enter your details to check loan eligibility</p>
+            <a href="{{ url_for('predict') }}" class="btn">Start Prediction</a>
+        </div>
+        
+        <div class="card">
+            <h3>View History</h3>
+            <p>Check your previous loan predictions</p>
+            <a href="{{ url_for('history') }}" class="btn">View History</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

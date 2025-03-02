@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Prediction History{% endblock %}
+
+{% block content %}
+<div class="history-container">
+    <h2>Your Prediction History</h2>
+    {% if predictions %}
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Age</th>
+                        <th>Experience</th>
+                        <th>Income</th>
+                        <th>Family</th>
+                        <th>CC Avg</th>
+                        <th>Education</th>
+                        <th>Mortgage</th>
+                        <th>Securities</th>
+                        <th>CD</th>
+                        <th>Online</th>
+                        <th>Credit Card</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in predictions %}
+                    <tr>
+                        <td>{{ row['prediction_time'] }}</td>
+                        <td>{{ row['age'] }}</td>
+                        <td>{{ row['experience'] }}</td>
+                        <td>${{ row['income'] }}k</td>
+                        <td>{{ row['family'] }}</td>
+                        <td>${{ row['cc_avg'] }}</td>
+                        <td>{{ row['education'] }}</td>
+                        <td>${{ row['mortgage'] }}</td>
+                        <td>{{ "Yes" if row['securities_account'] == 1 else "No" }}</td>
+                        <td>{{ "Yes" if row['cd_account'] == 1 else "No" }}</td>
+                        <td>{{ "Yes" if row['online'] == 1 else "No" }}</td>
+                        <td>{{ "Yes" if row['credit_card'] == 1 else "No" }}</td>
+                        <td class="prediction-result {{ 'approved' if row['prediction'] == 1 else 'rejected' }}">
+                            {{ "Approved" if row['prediction'] == 1 else "Rejected" }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="empty-state">
+            <p>No prediction history found.</p>
+            <a href="{{ url_for('predict') }}" class="btn">Make Your First Prediction</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

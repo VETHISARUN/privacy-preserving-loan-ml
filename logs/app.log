@@ -1,0 +1,189 @@
+2025-02-21 23:01:37,785 - INFO - ==================
+2025-02-21 23:01:37,785 - INFO - DistributedCommunicator with rank 0
+2025-02-21 23:01:37,785 - INFO - ==================
+2025-02-21 23:01:37,795 - INFO - World size = 1
+2025-02-21 23:01:38,164 - ERROR - Unexpected error: Can't get attribute 'EncryptedLogisticRegression' on <module '__main__' from '/Users/vethisarun/College Work/data privacy lab/catmodel/app.py'>
+2025-02-21 23:01:38,169 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:01:38,169 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:04:58,819 - INFO - ==================
+2025-02-21 23:04:58,819 - INFO - DistributedCommunicator with rank 0
+2025-02-21 23:04:58,819 - INFO - ==================
+2025-02-21 23:04:58,829 - INFO - World size = 1
+2025-02-21 23:04:58,857 - INFO - Models and scaler loaded successfully
+2025-02-21 23:04:58,861 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:04:58,861 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:05:08,431 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:08] "GET /login HTTP/1.1" 200 -
+2025-02-21 23:05:08,440 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:08] "GET /static/styles.css HTTP/1.1" 200 -
+2025-02-21 23:05:15,325 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:15] "GET /register HTTP/1.1" 200 -
+2025-02-21 23:05:15,335 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:05:24,945 - INFO - New user registered: vethis
+2025-02-21 23:05:24,946 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-02-21 23:05:24,947 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:24] "GET /login HTTP/1.1" 200 -
+2025-02-21 23:05:24,955 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:05:30,086 - INFO - User logged in: vethis
+2025-02-21 23:05:30,087 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-21 23:05:30,089 - INFO - Current user in session: <sqlite3.Row object at 0x133a64160>
+2025-02-21 23:05:30,090 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:30] "GET / HTTP/1.1" 200 -
+2025-02-21 23:05:30,099 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:05:31,541 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:31] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:05:31,550 - INFO - 127.0.0.1 - - [21/Feb/2025 23:05:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:06:19,456 - ERROR - Prediction error: 'EncryptedLogisticRegression' object has no attribute 'predict'
+2025-02-21 23:06:19,457 - INFO - 127.0.0.1 - - [21/Feb/2025 23:06:19] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-02-21 23:06:19,462 - INFO - 127.0.0.1 - - [21/Feb/2025 23:06:19] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:06:19,473 - INFO - 127.0.0.1 - - [21/Feb/2025 23:06:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:18:26,262 - INFO - ==================
+2025-02-21 23:18:26,263 - INFO - DistributedCommunicator with rank 0
+2025-02-21 23:18:26,263 - INFO - ==================
+2025-02-21 23:18:26,274 - INFO - World size = 1
+2025-02-21 23:18:26,311 - INFO - Models and scaler loaded successfully
+2025-02-21 23:18:26,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:18:26,315 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:18:37,880 - INFO - 127.0.0.1 - - [21/Feb/2025 23:18:37] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:18:37,891 - INFO - 127.0.0.1 - - [21/Feb/2025 23:18:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:19:11,521 - INFO - 127.0.0.1 - - [21/Feb/2025 23:19:11] "POST /predict HTTP/1.1" 200 -
+2025-02-21 23:19:11,532 - INFO - 127.0.0.1 - - [21/Feb/2025 23:19:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:21:03,717 - INFO - ==================
+2025-02-21 23:21:03,717 - INFO - DistributedCommunicator with rank 0
+2025-02-21 23:21:03,717 - INFO - ==================
+2025-02-21 23:21:03,730 - INFO - World size = 1
+2025-02-21 23:21:03,756 - INFO - Models and scaler loaded successfully
+2025-02-21 23:21:03,761 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:21:03,761 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:21:06,625 - ERROR - Prediction error: Error binding parameter 13: type 'Tensor' is not supported
+2025-02-21 23:21:06,625 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:06] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-02-21 23:21:06,635 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:06] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:21:06,646 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:21:15,318 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:15] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:21:15,329 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:21:37,424 - ERROR - Prediction error: Error binding parameter 13: type 'Tensor' is not supported
+2025-02-21 23:21:37,425 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:37] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-02-21 23:21:37,427 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:37] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:21:37,436 - INFO - 127.0.0.1 - - [21/Feb/2025 23:21:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:23:52,792 - INFO - ==================
+2025-02-21 23:23:52,792 - INFO - DistributedCommunicator with rank 0
+2025-02-21 23:23:52,792 - INFO - ==================
+2025-02-21 23:23:52,805 - INFO - World size = 1
+2025-02-21 23:23:52,826 - INFO - Models and scaler loaded successfully
+2025-02-21 23:23:52,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:23:52,829 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:23:55,693 - INFO - 127.0.0.1 - - [21/Feb/2025 23:23:55] "GET /predict HTTP/1.1" 200 -
+2025-02-21 23:23:55,707 - INFO - 127.0.0.1 - - [21/Feb/2025 23:23:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:24:25,053 - INFO - 127.0.0.1 - - [21/Feb/2025 23:24:25] "POST /predict HTTP/1.1" 200 -
+2025-02-21 23:24:25,066 - INFO - 127.0.0.1 - - [21/Feb/2025 23:24:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:24:57,527 - INFO - 127.0.0.1 - - [21/Feb/2025 23:24:57] "GET /history HTTP/1.1" 200 -
+2025-02-21 23:24:57,539 - INFO - 127.0.0.1 - - [21/Feb/2025 23:24:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:51:16,283 - INFO - ==================
+2025-02-22 02:51:16,283 - INFO - DistributedCommunicator with rank 0
+2025-02-22 02:51:16,283 - INFO - ==================
+2025-02-22 02:51:16,296 - INFO - World size = 1
+2025-02-22 02:51:16,379 - INFO - Models and scaler loaded successfully
+2025-02-22 02:51:16,383 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 02:51:16,383 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 02:51:27,164 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-22 02:51:27,181 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:27] "GET /login HTTP/1.1" 200 -
+2025-02-22 02:51:27,197 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:51:30,017 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:30] "GET /register HTTP/1.1" 200 -
+2025-02-22 02:51:30,028 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:51:48,441 - INFO - New user registered: sujith
+2025-02-22 02:51:48,441 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-02-22 02:51:48,444 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:48] "GET /login HTTP/1.1" 200 -
+2025-02-22 02:51:48,456 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:51:58,191 - INFO - User logged in: sujith
+2025-02-22 02:51:58,192 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-22 02:51:58,194 - INFO - Current user in session: <sqlite3.Row object at 0x1380940a0>
+2025-02-22 02:51:58,196 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:58] "GET / HTTP/1.1" 200 -
+2025-02-22 02:51:58,209 - INFO - 127.0.0.1 - - [22/Feb/2025 02:51:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:52:06,776 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:06] "GET /predict HTTP/1.1" 200 -
+2025-02-22 02:52:06,788 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:52:33,887 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:33] "POST /predict HTTP/1.1" 200 -
+2025-02-22 02:52:33,902 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 02:52:37,766 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:37] "GET /history HTTP/1.1" 200 -
+2025-02-22 02:52:37,778 - INFO - 127.0.0.1 - - [22/Feb/2025 02:52:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:06,178 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:06] "GET /history HTTP/1.1" 200 -
+2025-02-22 03:22:06,192 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:08,974 - INFO - Current user in session: <sqlite3.Row object at 0x138095b70>
+2025-02-22 03:22:08,974 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:08] "GET / HTTP/1.1" 200 -
+2025-02-22 03:22:08,989 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:11,091 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:11] "GET /history HTTP/1.1" 200 -
+2025-02-22 03:22:11,102 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:12,070 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-22 03:22:12,073 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:12] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:22:12,085 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:38,140 - INFO - ==================
+2025-02-22 03:22:38,141 - INFO - DistributedCommunicator with rank 0
+2025-02-22 03:22:38,141 - INFO - ==================
+2025-02-22 03:22:38,152 - INFO - World size = 1
+2025-02-22 03:22:38,209 - INFO - Models and scaler loaded successfully
+2025-02-22 03:22:38,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 03:22:38,213 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 03:22:41,444 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:41] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:22:41,459 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:42,101 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:22:42,110 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:42,267 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:22:42,276 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:22:42,399 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:22:42,408 - INFO - 127.0.0.1 - - [22/Feb/2025 03:22:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:52:58,781 - INFO - 127.0.0.1 - - [22/Feb/2025 03:52:58] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:52:58,793 - INFO - 127.0.0.1 - - [22/Feb/2025 03:52:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:54:03,821 - INFO - 127.0.0.1 - - [22/Feb/2025 03:54:03] "GET /register HTTP/1.1" 200 -
+2025-02-22 03:54:03,832 - INFO - 127.0.0.1 - - [22/Feb/2025 03:54:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:55:26,314 - INFO - 127.0.0.1 - - [22/Feb/2025 03:55:26] "GET /login HTTP/1.1" 200 -
+2025-02-22 03:55:26,329 - INFO - 127.0.0.1 - - [22/Feb/2025 03:55:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:55:31,880 - INFO - User logged in: vethis
+2025-02-22 03:55:31,880 - INFO - 127.0.0.1 - - [22/Feb/2025 03:55:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-22 03:55:31,884 - INFO - Current user in session: <sqlite3.Row object at 0x12982ab90>
+2025-02-22 03:55:31,885 - INFO - 127.0.0.1 - - [22/Feb/2025 03:55:31] "GET / HTTP/1.1" 200 -
+2025-02-22 03:55:31,898 - INFO - 127.0.0.1 - - [22/Feb/2025 03:55:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:56:27,668 - INFO - 127.0.0.1 - - [22/Feb/2025 03:56:27] "GET /predict HTTP/1.1" 200 -
+2025-02-22 03:56:27,684 - INFO - 127.0.0.1 - - [22/Feb/2025 03:56:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 03:57:40,659 - INFO - 127.0.0.1 - - [22/Feb/2025 03:57:40] "GET /history HTTP/1.1" 200 -
+2025-02-22 03:57:40,669 - INFO - 127.0.0.1 - - [22/Feb/2025 03:57:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 09:40:49,339 - INFO - 127.0.0.1 - - [22/Feb/2025 09:40:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-22 09:40:49,343 - INFO - 127.0.0.1 - - [22/Feb/2025 09:40:49] "GET /login HTTP/1.1" 200 -
+2025-02-22 09:40:49,358 - INFO - 127.0.0.1 - - [22/Feb/2025 09:40:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:12:02,244 - INFO - User logged in: vethis
+2025-02-22 10:12:02,246 - INFO - 127.0.0.1 - - [22/Feb/2025 10:12:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-22 10:12:02,249 - INFO - Current user in session: <sqlite3.Row object at 0x1298342b0>
+2025-02-22 10:12:02,249 - INFO - 127.0.0.1 - - [22/Feb/2025 10:12:02] "GET / HTTP/1.1" 200 -
+2025-02-22 10:12:02,269 - INFO - 127.0.0.1 - - [22/Feb/2025 10:12:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:12:08,137 - INFO - 127.0.0.1 - - [22/Feb/2025 10:12:08] "GET /predict HTTP/1.1" 200 -
+2025-02-22 10:12:08,148 - INFO - 127.0.0.1 - - [22/Feb/2025 10:12:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:13:21,305 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:21] "POST /predict HTTP/1.1" 200 -
+2025-02-22 10:13:21,325 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:13:31,700 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:31] "GET /history HTTP/1.1" 200 -
+2025-02-22 10:13:31,713 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:13:59,953 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:59] "GET /predict HTTP/1.1" 200 -
+2025-02-22 10:13:59,967 - INFO - 127.0.0.1 - - [22/Feb/2025 10:13:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:14:41,950 - INFO - 127.0.0.1 - - [22/Feb/2025 10:14:41] "POST /predict HTTP/1.1" 200 -
+2025-02-22 10:14:41,961 - INFO - 127.0.0.1 - - [22/Feb/2025 10:14:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 20:32:55,358 - INFO - ==================
+2025-03-01 20:32:55,359 - INFO - DistributedCommunicator with rank 0
+2025-03-01 20:32:55,359 - INFO - ==================
+2025-03-01 20:32:55,398 - INFO - World size = 1
+2025-03-01 20:32:55,874 - INFO - Models and scaler loaded successfully
+2025-03-01 20:32:55,882 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 20:32:55,882 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 20:33:11,632 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:11] "[32mGET /predict HTTP/1.1[0m" 302 -
+2025-03-01 20:33:11,645 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:11] "GET /login HTTP/1.1" 200 -
+2025-03-01 20:33:11,689 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 20:33:12,316 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 20:33:13,717 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:13] "GET /login HTTP/1.1" 200 -
+2025-03-01 20:33:13,724 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 20:33:19,853 - INFO - User logged in: vethis
+2025-03-01 20:33:19,854 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-01 20:33:19,857 - INFO - Current user in session: <sqlite3.Row object at 0x10f865e10>
+2025-03-01 20:33:19,861 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:19] "GET / HTTP/1.1" 200 -
+2025-03-01 20:33:19,872 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 20:33:23,578 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:23] "GET /predict HTTP/1.1" 200 -
+2025-03-01 20:33:23,595 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 20:33:39,512 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:39] "POST /predict HTTP/1.1" 200 -
+2025-03-01 20:33:39,524 - INFO - 127.0.0.1 - - [01/Mar/2025 20:33:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
