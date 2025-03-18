@@ -40,6 +40,5 @@ pip install -r requirements.txt
 - [Concrete ML](https://www.zama.ai/concrete-ml)
 - [Homomorphic Encryption](https://machinelearning.apple.com/research/homomorphic-encryption)
 
-## License
-This project is licensed under the MIT License.
+
 
